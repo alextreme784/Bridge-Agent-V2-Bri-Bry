@@ -1,0 +1,25 @@
+# Dependencies
+node_modules/
+
+# Environment & secrets — NEVER commit these
+.env
+.env.*
+*.pem
+*.key
+
+# Generated files
+uploads/
+*.log
+*.pdf
+
+# OS / editor noise
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# PM2
+.pm2/
+
+# Test output
+coverage/
